@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.9.26)  5 DEC 2017 09:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.9.26)  6 DEC 2017 16:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -452,8 +452,8 @@ File: tikzlibrarycalc.code.tex 2013/07/15 v3.0.1a (rcs-revision 1.9)
 
 Paperwidth=3414.3307pt
 Paperheight=2560.74802pt
-BasePaperwidth=1160.85992pt
-BasePaperheight=870.64494pt
+BasePaperwidth=1365.71144pt
+BasePaperheight=1024.28357pt
 (/usr/local/texlive/2017/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
@@ -657,25 +657,26 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip83
 )
-(./AGU2017.aux)
+(./terms.tex) (./AGU2017.aux)
 \openout1 = `AGU2017.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 14.
- (/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/t1ptm.fd
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 15.
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
 (/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -717,15 +718,15 @@ ABD: EveryShipout initializing macros
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: landscape 
-* h-part:(L,W,R)=(16.44548pt, 1127.96896pt, 16.44548pt)
-* v-part:(T,H,B)=(16.44548pt, 837.75398pt, 16.44548pt)
-* \paperwidth=1160.85992pt
-* \paperheight=870.64494pt
-* \textwidth=1127.96896pt
-* \textheight=837.75398pt
-* \oddsidemargin=-55.82451pt
-* \evensidemargin=-55.82451pt
-* \topmargin=-92.82451pt
+* h-part:(L,W,R)=(19.34753pt, 1327.01637pt, 19.34753pt)
+* v-part:(T,H,B)=(19.34753pt, 985.5885pt, 19.34753pt)
+* \paperwidth=1365.71144pt
+* \paperheight=1024.28357pt
+* \textwidth=1327.01637pt
+* \textheight=985.5885pt
+* \oddsidemargin=-52.92245pt
+* \evensidemargin=-52.92245pt
+* \topmargin=-89.92245pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=10.0pt
@@ -746,7 +747,7 @@ ABD: EveryShipout initializing macros
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box48
-Package hyperref Info: Link coloring OFF on input line 14.
+Package hyperref Info: Link coloring OFF on input line 15.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
@@ -755,9 +756,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count143
 )
-LaTeX Info: Redefining \ref on input line 14.
-LaTeX Info: Redefining \pageref on input line 14.
-LaTeX Info: Redefining \nameref on input line 14.
+LaTeX Info: Redefining \ref on input line 15.
+LaTeX Info: Redefining \pageref on input line 15.
+LaTeX Info: Redefining \nameref on input line 15.
 
 (./AGU2017.out) (./AGU2017.out)
 \@outlinefile=\write4
@@ -766,94 +767,142 @@ LaTeX Info: Redefining \nameref on input line 14.
 <USTC_logo_blue.jpg, id=31, 480.29437pt x 493.845pt>
 File: USTC_logo_blue.jpg Graphic file (type jpg)
 <use USTC_logo_blue.jpg>
-Package pdftex.def Info: USTC_logo_blue.jpg  used on input line 50. on input li
-ne 50.
-Package pdftex.def Info: Requested size: 87.52657pt x 90.0pt on input line 50.
+Package pdftex.def Info: USTC_logo_blue.jpg  used on input line 51. on input li
+ne 51.
+Package pdftex.def Info: Requested size: 87.52657pt x 90.0pt on input line 51.
 <2017_AGU_ID.pdf, id=32, pagebox=cropbox, 142.73325pt x 45.87137pt>
 File: 2017_AGU_ID.pdf Graphic file (type pdf)
 <use 2017_AGU_ID.pdf>
-Package pdftex.def Info: 2017_AGU_ID.pdf  used on input line 50. on input line 
-50.
-Package pdftex.def Info: Requested size: 155.57831pt x 50.0pt on input line 50.
+Package pdftex.def Info: 2017_AGU_ID.pdf  used on input line 51. on input line 
+51.
+Package pdftex.def Info: Requested size: 155.57831pt x 50.0pt on input line 51.
 
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 50.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 51.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 50.
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <20.74> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 50.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 51.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 50.
+(Font)              <14.4> on input line 51.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 50.
+(Font)              <7> on input line 51.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 50.
+(Font)              <5> on input line 51.
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 60.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 62.
 LaTeX Font Info:    Font shape `T1/ptm/bx/sc' in size <14.4> not available
-(Font)              Font shape `T1/ptm/b/sc' tried instead on input line 60.
+(Font)              Font shape `T1/ptm/b/sc' tried instead on input line 62.
 Missing character: There is no ; in font nullfont!
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 84.
+
+Underfull \hbox (badness 2418) in paragraph at lines 84--92
+[]\T1/ptm/b/n/8 Fig. 1. \T1/ptm/m/it/8 Map of re-
+ []
+
+
+Underfull \hbox (badness 1721) in paragraph at lines 84--92
+\T1/ptm/m/it/8 area used in this study.
+ []
+
+
+Underfull \hbox (badness 8038) in paragraph at lines 84--92
+\T1/ptm/m/it/8 Solid black thick lines
+ []
+
+
+Underfull \hbox (badness 2680) in paragraph at lines 84--92
+\T1/ptm/m/it/8 (top left) de-picts telses-
+ []
+
+
+Underfull \hbox (badness 3547) in paragraph at lines 84--92
+\T1/ptm/m/it/8 imic dis-tri-bu-tion. Red
+ []
+
+
+Underfull \hbox (badness 3000) in paragraph at lines 84--92
+\T1/ptm/m/it/8 cir-cles rep-re-sent epi-cen-
+ []
+
+
+Underfull \hbox (badness 6893) in paragraph at lines 84--92
+\T1/ptm/m/it/8 this study, which hap-
+ []
+
 <XJ.pdf, id=35, pagebox=cropbox, 602.14964pt x 493.64424pt>
 File: XJ.pdf Graphic file (type pdf)
 <use XJ.pdf>
-Package pdftex.def Info: XJ.pdf  used on input line 82. on input line 82.
-Package pdftex.def Info: Requested size: 217.19257pt x 178.05075pt on input lin
-e 82.
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 90.
-<JointDisp.pdf, id=36, pagebox=cropbox, 484.81125pt x 330.33414pt>
-File: JointDisp.pdf Graphic file (type pdf)
-<use JointDisp.pdf>
-Package pdftex.def Info: JointDisp.pdf  used on input line 103. on input line 1
-03.
-Package pdftex.def Info: Requested size: 217.19257pt x 147.98868pt on input lin
-e 103.
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 108.
-
-Underfull \hbox (badness 1107) in paragraph at lines 108--114
-\T1/ptm/m/it/8 group ve-loc-ity dis-per-sion curves be-
- []
-
-
-Underfull \hbox (badness 1127) in paragraph at lines 108--114
-\T1/ptm/m/it/8 re-sent those mea-sured from tele-seis-
- []
-
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-<Pathnum.pdf, id=37, pagebox=cropbox, 578.16pt x 433.62pt>
+Package pdftex.def Info: XJ.pdf  used on input line 94. on input line 94.
+Package pdftex.def Info: Requested size: 321.24902pt x 263.37018pt on input lin
+e 94.
+<Pathnum.pdf, id=36, pagebox=cropbox, 578.16pt x 433.62pt>
 File: Pathnum.pdf Graphic file (type pdf)
 <use Pathnum.pdf>
-Package pdftex.def Info: Pathnum.pdf  used on input line 125. on input line 125
+Package pdftex.def Info: Pathnum.pdf  used on input line 114. on input line 114
 .
-Package pdftex.def Info: Requested size: 224.42827pt x 168.31714pt on input lin
-e 125.
-
-Underfull \hbox (badness 1571) in paragraph at lines 130--138
-\T1/ptm/m/it/8 cor-re-spond-ing limegreen area shows
- []
-
+Package pdftex.def Info: Requested size: 192.74811pt x 144.55728pt on input lin
+e 114.
+<JointDisp.pdf, id=37, pagebox=cropbox, 484.81125pt x 330.33414pt>
+File: JointDisp.pdf Graphic file (type pdf)
+<use JointDisp.pdf>
+Package pdftex.def Info: JointDisp.pdf  used on input line 114. on input line 1
+14.
+Package pdftex.def Info: Requested size: 192.74811pt x 131.33492pt on input lin
+e 114.
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+Missing character: There is no ; in font nullfont!
+<resolution.pdf, id=38, pagebox=cropbox, 368.67737pt x 423.68288pt>
+File: resolution.pdf Graphic file (type pdf)
+<use resolution.pdf>
+Package pdftex.def Info: resolution.pdf  used on input line 142. on input line 
+142.
+Package pdftex.def Info: Requested size: 321.24902pt x 369.19589pt on input lin
+e 142.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 197.
+(Font)              <8> on input line 149.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 197.
+(Font)              <6> on input line 149.
+<maps.pdf, id=39, pagebox=cropbox, 368.67737pt x 423.68288pt>
+File: maps.pdf Graphic file (type pdf)
+<use maps.pdf>
+Package pdftex.def Info: maps.pdf  used on input line 158. on input line 158.
+Package pdftex.def Info: Requested size: 321.24902pt x 369.19589pt on input lin
+e 158.
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
-
-Underfull \hbox (badness 3646) in paragraph at lines 240--245
-\T1/ptm/m/it/8 PKiKP (blue) and PcP (black)
- []
-
-
-Underfull \hbox (badness 1701) in paragraph at lines 240--245
-\T1/ptm/m/it/8 wave-forms in each ge-o-graph-i-cal
- []
-
+<Tarim.pdf, id=40, pagebox=cropbox, 578.16pt x 867.24pt>
+File: Tarim.pdf Graphic file (type pdf)
+<use Tarim.pdf>
+Package pdftex.def Info: Tarim.pdf  used on input line 182. on input line 182.
+Package pdftex.def Info: Requested size: 141.35036pt x 212.01912pt on input lin
+e 182.
+<tianshan.pdf, id=41, pagebox=cropbox, 578.16pt x 867.24pt>
+File: tianshan.pdf Graphic file (type pdf)
+<use tianshan.pdf>
+Package pdftex.def Info: tianshan.pdf  used on input line 183. on input line 18
+3.
+Package pdftex.def Info: Requested size: 141.35036pt x 212.01912pt on input lin
+e 183.
+<Junggar.pdf, id=42, pagebox=cropbox, 578.16pt x 867.24pt>
+File: Junggar.pdf Graphic file (type pdf)
+<use Junggar.pdf>
+Package pdftex.def Info: Junggar.pdf  used on input line 184. on input line 184
+.
+Package pdftex.def Info: Requested size: 141.35036pt x 212.01912pt on input lin
+e 184.
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 193.
+<shear_velocity_maps.pdf, id=43, pagebox=cropbox, 368.67737pt x 404.91275pt>
+File: shear_velocity_maps.pdf Graphic file (type pdf)
+<use shear_velocity_maps.pdf>
+Package pdftex.def Info: shear_velocity_maps.pdf  used on input line 206. on in
+put line 206.
+Package pdftex.def Info: Requested size: 321.24902pt x 352.83966pt on input lin
+e 206.
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
@@ -863,38 +912,51 @@ Missing character: There is no ; in font nullfont!
 [2
 
 {/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./USTC_
-logo_blue.jpg> <./2017_AGU_ID.pdf> <./XJ.pdf> <./JointDisp.pdf> <./Pathnum.pdf>
-]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 274.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 274.
+logo_blue.jpg> <./2017_AGU_ID.pdf> <./XJ.pdf> <./Pathnum.pdf> <./JointDisp.pdf>
+ <./resolution.pdf> <./maps.pdf> <./Tarim.pdf
+
+pdfTeX warning: pdflatex (file ./Tarim.pdf): PDF inclusion: multiple pdfs with 
+page group included in a single page
+> <./tianshan.pdf
+
+pdfTeX warning: pdflatex (file ./tianshan.pdf): PDF inclusion: multiple pdfs wi
+th page group included in a single page
+> <./Junggar.pdf
+
+pdfTeX warning: pdflatex (file ./Junggar.pdf): PDF inclusion: multiple pdfs wit
+h page group included in a single page
+> <./shear_velocity_maps.pdf>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 230.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 230.
  (./AGU2017.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 274.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 274.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 230.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 230.
 Package rerunfilecheck Info: File `AGU2017.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 274.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 230.
  ) 
 Here is how much of TeX's memory you used:
- 18534 strings out of 492990
- 365550 string characters out of 6132621
- 454906 words of memory out of 5000000
- 21767 multiletter control sequences out of 15000+600000
- 41459 words of font info for 46 fonts, out of 8000000 for 9000
+ 18635 strings out of 492990
+ 366740 string characters out of 6132621
+ 453908 words of memory out of 5000000
+ 21859 multiletter control sequences out of 15000+600000
+ 39763 words of font info for 45 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,13n,92p,449b,1335s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,15n,92p,449b,1306s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/te
-xlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texl
-ive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive
-/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2
-017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/201
-7/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2017/texmf-di
-st/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/t
-ype1/urw/times/utmri8a.pfb>
-Output written on AGU2017.pdf (1 page, 27098470 bytes).
+xlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texl
+ive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texliv
+e/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2
+017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/20
+17/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2017
+/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2017/texmf-dis
+t/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/ty
+pe1/urw/times/utmri8a.pfb>
+Output written on AGU2017.pdf (1 page, 77988663 bytes).
 PDF statistics:
- 143 PDF objects out of 1000 (max. 8388607)
- 70 compressed objects within 1 object stream
+ 337 PDF objects out of 1000 (max. 8388607)
+ 111 compressed objects within 2 object streams
  2 named destinations out of 1000 (max. 500000)
- 140 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 170 words of extra memory for PDF output out of 10000 (max. 10000000)
 

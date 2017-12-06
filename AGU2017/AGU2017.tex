@@ -2,7 +2,7 @@
     landscape,      % landscape or portrait
     paperwidth = 1200mm,
     paperheight = 900mm,
-    fontscale = 0.34,
+    fontscale = 0.4,
     margin = 1.7cm,
 ]{baposter}
 \definecolor{lightblue}{rgb}{0.145,0.6666,1}
@@ -10,6 +10,7 @@
 \usepackage{tikz}
 \usepackage{floatrow}
 \usepackage{hyperref}
+\input{terms.tex}
 
 \begin{document}
 
@@ -38,7 +39,7 @@
     headerfont = \Large\bf\textsc,
     linewidth = 0.1 em,}
 {\includegraphics[height=9em]{USTC_logo_blue.jpg}}
-{\huge{3D Crust and Uppermost Mantle Structure beneath Tian Shan Region from ambient noise and earthquake surface waves}}
+{\Huge{3D Crust and Uppermost Mantle Structure beneath Tian Shan Region from ambient noise and earthquake surface waves}}
 {
     \vspace{0.3em}
     Xiao Xiao$^1$ (\textcolor{blue}{xiaox17@mail.ustc.edu.cn}),
@@ -54,7 +55,8 @@
 \setlength{\parskip}{3pt}
 As a typical active intracontinental mountain range in Central Asia, Tian
 Shan Mt serves as the prototype in studying geodynamic processes and mechanism
-of intracontinental mountain building.
+of intracontinental mountain building. In Tian Shan Mt. and nearby area,  There are three mainly geological blocks,
+Tarim basin, Tian Shan Mountain and Junggar basin. To figure out underground structure and geological evolution history there,
 We study 3D crust and the uppermost mantle structure beneath Tian Shan and close region
 using ambient noise and earthquake surface waves.
 \end{posterbox}
@@ -62,31 +64,23 @@ using ambient noise and earthquake surface waves.
 \begin{posterbox}[column=0, below=auto]{2. Data and Methods}
 \setlength{\parskip}{3pt}
 My data set contains 60 brand-band seismic stations mainly
-locating at foot of Tian Shan mountain and joint area.
+locating at foot of Tian Shan mountain and joint area (Fig. 1.).
 Several stations, situating at the sounthern foot of Altai Mt. and northern foot of Kunlun Mt.,
 provide critical ray path coverage of Junggar amd Tarim basins.Our dataset includes vertical
 component continuous record from 2015 to 2016 and teleseismic waveforms,
 whose magnitudes are over 5.5, focal depths are shallower than 200 km and happened during
 2013 and 2016.
 
- Firstly, we measure group velocity diospersion curve of fundamental-mode Rayleigh wave in the period of 3 to 45 s using
- a frequency-time analysis method from two-year stacked Empirical Green's Function (EGF).
- Secondly, we collect surface wave data from tele-seismic events and measure group velocities of the fundamental-mode
- of Rayleigh wave in the period of 25 to 55 s using a two-station method.
- Finally, we combine the group velocity dispersion curves measured from ambient noise and earthquake surface waves,
- obtain lateral isotropic group velocity maps at different periods based on tomography and invert a 3D Vsv model of crust
- and uppermost mantle down to about 70 km using a Monte Carlo Inversion method.
+We combine the group velocity dispersion curves measured from ambient noise and earthquake surface waves,
+obtain lateral isotropic group velocity maps at different periods based on tomography and invert a 3D Vsv model of crust
+and uppermost mantle down to about 70 km using a Monte Carlo Inversion method.
+
 
 
 \begin{center}
-  \includegraphics[width=.6\textwidth]{XJ}
-\end{center}
 
-\begin{center}
-
-
-\begin{minipage}{0.9\textwidth}
-\small
+\begin{minipage}{0.2\textwidth}
+\footnotesize
 \textbf{Fig. 1.}
 \itshape
 Map of research area. Red triangles represent broad-band seismic stations
@@ -96,168 +90,130 @@ epicenter of teleseismic used in this study, which happened from 2013 to 2016.
 Dashed red square is study area. Two triangles represent two stations named as
 AKS and KOL, which are in common line with this star-labelled earthquake.
 \end{minipage}
-\end{center}
-
-\begin{center}
-\begin{minipage}{0.6\textwidth}
-\includegraphics[width=\textwidth]{JointDisp}
+\begin{minipage}{0.75\textwidth}
+\includegraphics[width=\textwidth]{XJ}
 \end{minipage}
 \hspace{0.1cm}
-\begin{minipage}{0.35\textwidth}
-\footnotesize
-\textbf{Fig. 2.}
-\itshape
-Demos of combination of group velocity dispersion curves between two stations, AKS and KOL.
+
+\end{center}
+
+
+
+We control quality of dispersion curves with spectral signal-noise-ratio (SNR) and standard deviation of measuremens.
+For EGFs, we define signal-noise-ratio (SNR) as ratio of peak in signal window of surface
+wave and root mean standard (rms) in noise window at each period and we measure dispersion curves every trimesters
+which provides standard deviation of dispersion curve between a pair of station.
+We measure dispersion curves from telesemic waveforms of different events of two stations.
+These curves give final dispersion curve to be meadian of them and standard deviation at each periods (Fig. 2.).
+
+We take weighted average of reliable dispersion curves measured from EGF and teleseismic waveform to be final
+usable dispersion curves (Fig. 3.) and the weight is inverse of their standard deviation.
+
+
+
+\putfigureLR{0.45\textwidth}{Pathnum}{0.45\textwidth}{JointDisp}
+
+\hspace{0.1cm}
+
+\putfigurecaptionLR{0.45\textwidth}
+{Fig. 3.}
+{Variation of dispersion curve numbers used for tomography due to dispersion curves quality control.The Dashed limegreen line and corresponding limegreen area shows number of used dispersion
+curves measured from teleseismic with two-station method while Dashed red line and area denote number of those measured from EGF at each period. The
+solid blue line indicates numbers of all used dispersion curves which are summation of above two.}
+{0.45\textwidth}{Fig. 2.}
+{Demos of combination of group velocity dispersion curves between two stations, AKS and KOL.
 Red circles denote dispersion points measured from EGF while blue circles represent those measured from teleseismic.
 Limegreen squares give combined dispersion curve. At overlap periods, green squares are weight average of blue and red circles
 , in which weights are inverse of their error which summation of their errors gives error of combined dispersion curve.
-\end{minipage}
-\end{center}
+}
+
 
 
 \end{posterbox}
 
 \begin{posterbox}[column=1]{3. 2D Group velocity Maps}
-In this section, we present inverted 2D group velocity maps.
-\begin{center}
-\begin{minipage}{0.62\textwidth}
-\begin{tikzpicture}[nodes={inner sep=0}]
-\node (a) {\includegraphics[width=\textwidth]{Pathnum}};
-\end{tikzpicture}
-\end{minipage}
-\begin{minipage}{0.35\textwidth}
-\footnotesize
-\textbf{Fig. 3.}
-\itshape
-Dispersion curve numbers used for tomography, variate with period. The Dashed
-limegreen line and corresponding limegreen area shows number of used dispersion
-curves measured from teleseismic with two-station method while Dashed
-red line and area denote number of those measured from EGF at each period. The
-solid blue line indicates numbers of all used dispersion curves which are summation of
-above two.
-\end{minipage}
-\end{center}
 
-The PKiKP-PcP differential travel time residuals exhibits
-large spatial variations from -1.0 s to 1.0 s in a horizontal distance of
-about $5^\circ$ (Fig. 2).
-
-
-
-
-The PKiKP-PcP differential travel time residuals have a positive correlation
-with PKiKP travel time residuals (Fig. 3a), while no correlation is found with PcP
-travel time residuals (Fig. 3b), implying that the large variations of PKiKP-PcP
-residuals mainly come from PKiKP phases. A typical ULVZ model of a 10\%
-decrease in P wave velocity over a 15 km layer near the PKiKP entrant or
-exit points at the CMB, gives a travel time pertubation of about 0.12 s,
-which is not quite large enough to account for the observed variation of 1.0 s.
-Thus, the observed PKiKP-PcP differential travel time residuals may indicate
-a ICB topographic change of 5 km.
+With combined dispersion curves, we use traditional surface wave tomography method
+to image 2D Rayleigh group velocity maps. Resolutions shown by fitted radius is
+consistent with that shown by checkerboard test, indicating this inversion can
+resolve $2^{\circ} \times 2^{\circ}$ anomalies (Fig. 3.).
 
 \begin{center}
-%\includegraphics[width=0.95\textwidth]{Mexico_Vesus}
+\includegraphics[width=0.75\textwidth]{resolution}
 \begin{minipage}{0.9\textwidth}
 \footnotesize
 \vspace{0.2em}
 \textbf{Fig. 3.}
 \itshape
-Relationship among PKiKP-PcP differential travel time residuals, PKiKP
-travel time residuals and PcP travel time residuals. Events are coded
-using different colors.
+Rayleigh group velocity tomography at  10 s. (a) 2D group velocity perturbation
+map refers to $2.69315$ km/s, average group velocity of this area and the colorbar
+indicates percent. Solid black line encloses area with resolution better than $250$ km/s.
+(b) Fitted radius distribution from resolution matrix. Black triangles indicates locations
+of seismic stations. Synthetic model (c) for checkerboard test and its recovered one (d).
+These models have similar symbols with panel (a).
 \end{minipage}
 \end{center}
 
-\vspace{-0.15cm}
-The binned PKiKP/PcP amplitude ratios exhibit much larger values than
-predictions of different ICB models (Fig. 4) and spatial variations (Fig. 5).
 \begin{center}
-\begin{minipage}{0.50\textwidth}
-%\includegraphics[width=\textwidth]{Mexico_ratio_gcarc}
-\begin{minipage}{0.98\textwidth}
-\vspace{0.1cm}
-\footnotesize
-\textbf{Fig. 4.}
-\itshape
-Observed PKiKP/PcP amplitude ratios (dots) as a function of epicentral distance,
-with predictions (lines) of different P wave speed (a) and density (b) constrasts
-across the ICB. The red squares represent average amplitude ratios of each bins, and
-the error bar represnt standard deviations.
-\end{minipage}
-\end{minipage}
-\hspace{0.2cm}
-\begin{minipage}{0.45\textwidth}
-%\includegraphics[width=\textwidth]{Mexico_region_ratio}
-\begin{minipage}{0.98\textwidth}
-\vspace{0.3cm}
-\footnotesize
-\textbf{Fig. 5.}
-\itshape
-Binned PKiKP/PcP amplitude ratio residuals, defined as the ratio between
-observed and predicted PKiKP/PcP amplitude ratios. $1^\circ$ geographical
-bins with the bin centers shift by $1^\circ$ in latitude and longtitude are used.
-The ratio residuals are plotted at the mean PKiKP reflection locations in each bins.
-\end{minipage}
-\end{minipage}
-\end{center}
-\end{posterbox}
-
-\begin{posterbox}[column=2 ]{4. ICB Beneath the Bearing Sea}
-In this section, we present seismic observations which sample the ICB region beneath
-Bearing Sea (Fig. 1b). The small variations of the PKiKP-PcP differential
-travel time residuals indicate a flat ICB in this region (Fig. 6).
-
-
-The linear relationship between PKiKP and PcP travel time residuals (Fig. 7)
-indicates that most variations in PKiKP and PcP travel time residuals
-originate from shallow Earth's hetergeneity, which can be effectively
-eliminated by using PKiKP-PcP differential travel time residuals.
-\begin{center}
-\begin{tikzpicture}[nodes={inner sep=0}]
-%\node (a) {\includegraphics[width=0.8\textwidth]{Bearing_Vesus.pdf}};
-\end{tikzpicture}
+\includegraphics[width=0.75\textwidth]{maps}
 \begin{minipage}{0.9\textwidth}
 \footnotesize
-\vspace{0.5em}
-\textbf{Fig. 7.}
+\vspace{0.2em}
+\textbf{Fig. 4.}
 \itshape
-Relationship among PKiKP-PcP differential travel time residuals, PKiKP
-travel time residuals and PcP travel time residuals.
+Rayleigh group velocity perturbation relative to the median velocity at periods
+10, 26, 33 and 42 s. The solid black line enclosed main area with resolution than
+labeled value. Three circles represent representative points to represent Tarim basin, Tian Shan Mt.
+and Junggar basin, separately, at which 1D shear velocity models are inverted in later section.
 \end{minipage}
 \end{center}
 
-The stacked PKiKP and PcP waveforms show similar waveforms (Fig. 8), indicating a sharp
-interface at both the CMB and ICB. The PKiKP/PcP amplitude ratios exhibit
-large scattering on single records.
-The PKiKP/PcP amplitde ratios binned by epicentral distance,
-exhibit much larger amplitude ratios than predictions of different ICB models (Fig. 9).
+\end{posterbox}
+
+\begin{posterbox}[column=2 ]{4. Shear wave velocity models}
+Surface wave tomography result provides Rayleigh group velocity dispersion curves
+at any points to do Monte Carlo Markov Chain inversion for three typical geological
+part.
+
+
+\vspace{-0.1cm}
+\begin{center}
+\begin{tikzpicture}[nodes={inner sep=0}]
+\node (a) at (-0.75,-0.2) {\includegraphics[width=0.33\textwidth]{Tarim}};
+\node (b) at (4.2,-0.2) {\includegraphics[width=0.33\textwidth]{tianshan}};
+\node (c) at (9.0,-0.2) {\includegraphics[width=0.33\textwidth]{Junggar}};
+\node at (-3.05, 3.2) {(a)};
+\node at (1.9, 3.2) {(b)};
+\node at (6.7, 3.2) {(c)};
+\end{tikzpicture}
+
+
+\begin{minipage}{0.9\textwidth}
+\small
+\textbf{Fig. 5.}
+\itshape
+Inverted models at three representative points, locating at Tarim basin, Tian Shan Mountain and Junggar basin, separately.
+Observed dispersion curves (solid black lines with error bars) are extracted from 2D rayleigh group velocity maps.
+Shade areas show the 95 percent confidence interval of the shear velocity model (below) and theoretical
+group velocity dispersion curve (upper). Red lines represents representative shear velocity model (below)
+and its synthetic dispersion curve (upper), which is cloesest to the average of all sampled models.
+\end{minipage}
+\end{center}
+
+
 
 \begin{center}
-\begin{minipage}{0.32\textwidth}
-%\includegraphics[width=\textwidth]{Bearing_stack}
-\begin{minipage}{0.98\textwidth}
+\includegraphics[width=0.75\textwidth]{shear_velocity_maps}
+\begin{minipage}{0.9\textwidth}
 \footnotesize
-\textbf{Fig. 8.}
+\vspace{0.2em}
+\textbf{Fig. 6.}
 \itshape
-Comparisons of stacked PKiKP (blue) and PcP (black) waveforms in each
-geographical bins. The locations of the bins center and the number of traces
-used in each stacking are labeled at the right of each traces.
-\end{minipage}
-\end{minipage}
-\hspace{0.4cm}
-\begin{minipage}{0.52\textwidth}
-%\includegraphics[width=\textwidth]{Bearing_ratio_gcarc}
-\begin{minipage}{0.98\textwidth}
-\footnotesize
-\textbf{Fig. 9.}
-\itshape
-Observed PKiKP/PcP amplitude ratios (dots) as a function of epicentral distance,
-with predictions (lines) of different P wave speed (a) and density (b) constrasts
-across the ICB. The red squares represent average amplitude ratios in each bins, and
-the error bar represnt standard deviations.
-\end{minipage}
+ Shear wave velocity maps at depths 15 , 30, 45 and 60 km. Colored area indicates where there is path coverage.
+ The green circles show locations of typical 1D shear wave velocity.
 \end{minipage}
 \end{center}
+
 \end{posterbox}
 
 \begin{posterbox}[column=2, below=auto]{5. Conclusions}
