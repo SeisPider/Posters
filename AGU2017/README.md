@@ -8,8 +8,9 @@
 
 **Where:** Poster Hall D-F
 
-<img src="./images/AGU2017.png" width="100%">
+**Download raw PNG poster**: ![AGU2017](./thumbnail.png)
 
+<img src="./images/AGU2017.png" width="100%">
 
 ## Abstract
 As a typical active intracontinental mountain range in Central Asia, Tian Shan Mt serves

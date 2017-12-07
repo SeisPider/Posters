@@ -2,7 +2,7 @@
 - ![AGU 2017](./AGU2017)
 
 ## Recent poster
-<img src="./AGU2017/images/AGU2017.png" width="100%">
+<img src="./AGU2017/images/thumbnail.png" width="100%">
 
 ## License
 
