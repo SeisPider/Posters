@@ -1,6 +1,14 @@
-# 3D Crust and Uppermost Mantle Structure beneath Tian Shan Region from ambient noise and earthquake surface waves
+## List of posters
+- ![AGU 2017](./AGU2017)
 
-**Abstract**: ![S51D-0626](https://agu.confex.com/agu/fm17/meetingapp.cgi/Paper/232020)
+## Recent poster
+<img src="./AGU2017/images/AGU2017.png" width="100%">
 
-**Session**: ![Theoretical and Computational Frontiers in Seismic Tomography](https://agu.confex.com/agu/fm17/preliminaryview.cgi/Session22396)
+## License
 
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img
+alt="Creative Commons License" style="border-width:0"
+src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br>
+This content is licensed under a <a rel="license"
+href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution
+4.0 International License</a>.
