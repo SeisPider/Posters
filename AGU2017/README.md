@@ -8,7 +8,7 @@
 
 **Where:** Poster Hall D-F
 
-**Download raw PNG poster**: ![AGU2017](./images/AGU2017.png)
+**Download raw PNG poster**: ![AGU2017](https://github.com/SeisPider/Posters/blob/master/AGU2017/images/AGU2017.png)
 
 <img src="./images/thumbnail.png" width="100%">
 
