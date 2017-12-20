@@ -8,7 +8,7 @@
 
 **Where:** Poster Hall D-F
 
-**Download raw PNG poster**: ![AGU2017](./images)
+**Download raw PDF poster**: ![AGU2017](./images)
 
 <img src="./images/thumbnail.png" width="100%">
 

@@ -39,7 +39,7 @@
     boxshade = none,            % plain, shade-lr, shade-tb, none
     headerfont = \Large\bf\textsc,
     linewidth = 0.1 em,}
-{\includegraphics[height=9em]{USTC_logo_blue.jpg}}
+{\includegraphics[height=9em]{./images/USTC_logo_blue.jpg}}
 {\Huge{3D Crust and Uppermost Mantle Structure beneath Tian Shan Region from Ambient Noise and Earthquake Surface Waves}}
 {
     \vspace{0.3em}
@@ -49,7 +49,7 @@
     1. Laboratory of Seismology and Physics of Earth's Interior; School of Earth and Space Sciences, University of Science and Technology of China  \\
     2. Department of Geosciences, Stony Brook University  \\
 }
-{\includegraphics[height=9em]{Righthand}}
+{\includegraphics[height=9em]{./images/Righthand.png}}
 \vspace{0.4cm}
 
 \begin{posterbox}[column=0, row=0]{1. Introduction}
@@ -74,13 +74,13 @@ Magnitudes of these earthquakes are over 5.5 and their focal depths are shallowe
 
 We combine the group velocity dispersion curves measured from empirical green's functions (EGFs) and teleseismic surface waves,
 obtain lateral isotropic Rayleigh group velocity maps at different periods based on traditional surface wave tomography method
-and  construct a 3D $V_{sv}$ model down to about 70 km using Markov Chain Monte Carlo method (MCMC).
+and  construct a 3D $V_{sv}$ model down to about 70 km using Markov Chain Monte Carlo method (MCMC) (Fig. 2).
 
 
 
 \begin{center}
 
-\begin{minipage}{0.2\textwidth}
+\begin{minipage}{0.3\textwidth}
 \footnotesize
 \textbf{Fig. 1.}
 \itshape
@@ -91,32 +91,46 @@ teleseismic epicenters.
 Dashed red rectangle shows the study area. Two red triangles represent two stations
 named as AKS and KOL, which are collineation with star-labelled earthquake.
 \end{minipage}
-\begin{minipage}{0.75\textwidth}
-\includegraphics[width=\textwidth]{XJ}
+\begin{minipage}{0.45\textwidth}
+\includegraphics[width=\textwidth]{./images/XJ.png}
 \end{minipage}
 \hspace{0.1cm}
-
 \end{center}
 
-We control qualities of dispersion curves with spectral signal-noise-ratio (SNR) and standard deviation of measurements (Fig. 2).
+
+\begin{center}
+
+\begin{minipage}{0.3\textwidth}
+\footnotesize
+\textbf{Fig. 2.}
+\itshape
+Work flow of this study.
+\end{minipage}
+\begin{minipage}{0.48\textwidth}
+\includegraphics[width=\textwidth]{./images/Workflow.png}
+\end{minipage}
+\hspace{0.1cm}
+\end{center}
+
+We control qualities of dispersion curves with spectral signal-noise-ratio (SNR) and standard deviation of measurements (Fig. 3).
 For EGFs, we define signal-noise-ratio (SNR) as ratio of peak in surface wave signal window and root mean standard (rms) in noise window at each period and we measure dispersion curves every trimesters
 , which provide standard deviation of dispersion curve between a pair of stations.
 We measure dispersion curves from telesemic waveforms of different events with two-station method.
 These curves give final dispersion curve with their medians and standard deviations at each periods .
 
 We take averages of reliable dispersion curves, measured from EGFs and teleseismic waveforms to be final
-usable dispersion curves (Fig. 3) which are weighted by inverses of their standard deviations. The standard
+usable dispersion curves (Fig. 4) which are weighted by inverses of their standard deviations. The standard
 deviations of final dispersion curves are the summation of those constituents.
 
-\putfigureLR{0.45\textwidth}{Pathnum}{0.45\textwidth}{JointDisp}
+\putfigureLR{0.45\textwidth}{./images/Pathnum.png}{0.45\textwidth}{./images/JointDisp.png}
 \hspace{0.15cm}
 
 \putfigurecaptionLR{0.45\textwidth}
-{Fig. 2.}
+{Fig. 3.}
 {Number variation of dispersion curves used for tomography due to dispersion curves quality control. The dashed limegreen line and corresponding limegreen area show
 number of used dispersion curves measured from teleseismic waveforms with two-station method while dashed red line and area denote number of those measured from EGFs at each period. The
 solid blue line indicates number of all dispersion curves which are summation of above two.}
-{0.45\textwidth}{Fig. 3.}
+{0.45\textwidth}{Fig. 4.}
 {Demo of group velocity dispersion curve combination between two stations, AKS and KOL.
 Red circles denote dispersion points measured from EGF while blue circles represent those estimated from teleseismic waveforms.
 Limegreen squares give combined dispersion curve. At overlap periods, green squares are weighted averages of blue and red circles
@@ -137,18 +151,18 @@ consistent with those shown in checkerboard tests, indicating we can
 resolve $222 \ \textit{km} \times 222 \ \textit{km}$ anomalies at Junggar basin,
 middle Tian Shan Mt. and  western Tarim basin. However, at the main part of Tarim basin ,
 eastern and western parts of Tian Shan Mt., we can only resolve $555 \ \textit{km} \times 555 \ \textit{km}$
-anomalies (Fig. 4).
+anomalies (Fig. 5).
 
 2D Rayleigh group velocity perturbation maps partly show differences between three main geological
 blocks. At short periods (10, 26 and 33 s),  perturbation maps are influenced by sedimentary layer, showing
-low group velocities in Junggar and Tarim basins. Long period map shows high velocities there, as they are cratons (Fig. 5).
+low group velocities in Junggar and Tarim basins. Long period map shows high velocities there, as they are cratons (Fig. 6).
 
 \begin{center}
-\includegraphics[width=0.75\textwidth]{resolution}
+\includegraphics[width=0.75\textwidth]{./images/resolution.png}
 \begin{minipage}{0.9\textwidth}
 \footnotesize
 \vspace{0.2em}
-\textbf{Fig. 4.}
+\textbf{Fig. 5.}
 \itshape
 Resolution analysis for Rayleigh group velocity tomography at 10 s. (a) Distribution
 of path density, indicating path numbers crossing each $1^{\circ} \times 1^{\circ}$ cells.
@@ -164,11 +178,11 @@ recovered one (f).
 \end{center}
 
 \begin{center}
-\includegraphics[width=0.75\textwidth]{maps}
+\includegraphics[width=0.75\textwidth]{./images/maps.png}
 \begin{minipage}{0.9\textwidth}
 \footnotesize
 \vspace{0.2em}
-\textbf{Fig. 5.}
+\textbf{Fig. 6.}
 \itshape
 Rayleigh group velocity perturbation maps at periods
 10, 26, 33 and 42 s. The colorbars indicate percent of perturbation, refering to the velocities
@@ -189,9 +203,9 @@ maps (Goutorbe, 2015).
 \vspace{-0.1cm}
 \begin{center}
 \begin{tikzpicture}[nodes={inner sep=0}]
-\node (a) at (-0.75,-0.2) {\includegraphics[width=0.33\textwidth]{Tarim}};
-\node (b) at (4.2,-0.2) {\includegraphics[width=0.33\textwidth]{tianshan}};
-\node (c) at (9.0,-0.2) {\includegraphics[width=0.33\textwidth]{Junggar}};
+\node (a) at (-0.75,-0.2) {\includegraphics[width=0.33\textwidth]{./images/Tarim.png}};
+\node (b) at (4.2,-0.2) {\includegraphics[width=0.33\textwidth]{./images/tianshan.png}};
+\node (c) at (9.0,-0.2) {\includegraphics[width=0.33\textwidth]{./images/Junggar.png}};
 \node at (-3.05, 3.2) {(a)};
 \node at (1.9, 3.2) {(b)};
 \node at (6.7, 3.2) {(c)};
@@ -200,7 +214,7 @@ maps (Goutorbe, 2015).
 
 \begin{minipage}{0.9\textwidth}
 \small
-\textbf{Fig. 6.}
+\textbf{Fig. 7.}
 \itshape
 Inverted 1D models at three representative points, locating at Tarim basin, Tian Shan Mt. and Junggar basin, separately.
 Observed dispersion curves (solid black lines with error bars) are extracted from previous 2D Rayleigh group velocity maps.
@@ -211,11 +225,11 @@ and their synthetic dispersion curves (upper), which are cloesest to the average
 \end{center}
 
 \begin{center}
-\includegraphics[width=0.75\textwidth]{shear_velocity_maps}
+\includegraphics[width=0.75\textwidth]{./images/shear_velocity_maps.png}
 \begin{minipage}{0.9\textwidth}
 \footnotesize
 \vspace{0.2em}
-\textbf{Fig. 7.}
+\textbf{Fig. 8.}
 \itshape
  Shear wave velocity maps at depths 15 , 30, 45 and 60 km. The green circles show locations of previous representative 1D shear wave velocity models.
  Study area is divieded to path covered part (colorful area) and that without coverage (dark gray area).
