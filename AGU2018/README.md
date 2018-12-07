@@ -8,7 +8,7 @@
 
 **Where:** Poster Hall A-C
 
-**Download raw PDF poster**: ![AGU2018](./AGU2018.pdf)
+**Download raw PDF poster**: [AGU2018](./AGU2018.pdf)
 
 <img src="./AGU2018-thumbnail.png" width="100%">
 
