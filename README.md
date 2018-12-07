@@ -1,5 +1,6 @@
 ## List of posters
 - ![AGU 2017](./AGU2017)
+- ![AGU 2018](./AGU2018)
 
 ## Recent poster
 <img src="./AGU2017/images/thumbnail.png" width="100%">
