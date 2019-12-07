@@ -2,7 +2,7 @@
 
 **Abstract**: [S11D-0376](https://agu.confex.com/agu/fm19/meetingapp.cgi/Paper/581056)
 
-**Session**: [Site Characterization Using Single-Station and Array Methods Posters](https://agu.confex.com/agu/fm18/meetingapp.cgi/Session/46442)
+**Session**: [Ambient-Noise Seismology VI Posters](https://agu.confex.com/agu/fm19/meetingapp.cgi/Session/87525)
 
 **When:** Monday, 9 December 2019 | 8:00 - 12:00
 
