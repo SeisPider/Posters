@@ -1,9 +1,10 @@
 ## List of posters
 - [AGU 2017](./AGU2017)
 - [AGU 2018](./AGU2018)
+- [AGU 2019](./AGU2019)
 
 ## Recent poster
-<img src="./AGU2018/AGU2018-thumbnail.png" width="100%">
+<img src="./AGU2019/AGU2019-thumbnail.jpg" width="100%">
 
 ## License
 
